@@ -1,5 +1,5 @@
 # Backend Dockerfile for Drilling ROP Visualization
-FROM node:20-alpine
+FROM node:24-alpine
 
 # Install Chromium and dependencies for Puppeteer
 RUN apk add --no-cache \
